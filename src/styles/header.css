@@ -4,7 +4,7 @@ position: sticky;
 top: 0;
 z-index: 10;
 
-
+background-color: aqua;
 }
 .main-div{
 
@@ -28,14 +28,20 @@ flex-direction: column;
 .ul-list{
     display: flex;
 flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
+    
+    color: white;
+    height: 400px;
+    width: 200px;
+    text-align: center;
     
 }
 
 .navbar-menu-icon{
     display: block;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 150px;
+
 
 }
 

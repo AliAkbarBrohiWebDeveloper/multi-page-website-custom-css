@@ -18,11 +18,15 @@ margin-top: 7rem;
     font-weight: 800px;
     font-size: 1.25rem;
     line-height: 2rem;
+    white-space: pre-line;
+    
 }
 .special-section p{
     margin-top: 0.75rem;
     font-size: 1.25rem;
     line-height: 1.75rem;
+    max-width: 640px;
+    
 }
 
 
@@ -75,5 +79,7 @@ margin-top: 1rem;
 @media(min-width:768px){
     .special-images{
         flex-direction: row;
+    }.special-section p{
+       margin-left: 300PX; 
     }
 }

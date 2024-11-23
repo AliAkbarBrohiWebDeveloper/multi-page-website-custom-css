@@ -43,7 +43,8 @@ const toggleMenu=()=>{
     </Link>
     
   </li>
-</ul>
+  </ul>
+  
 <div className='navbar-menu-icon' onClick={toggleMenu}>
 {isMenuOpen ? <AiOutlineClose size={30}/>: <AiOutlineMenu size={30}/>}
 
@@ -52,6 +53,7 @@ const toggleMenu=()=>{
 </div>
 
 </div>
+
 
 {isMenuOpen&&(
  <ul>

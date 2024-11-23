@@ -50,7 +50,7 @@ const Special = () => {
 <div className='special-section'>
 
 <h3>Today special offers</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
 </div>
 <div className='special-images'>
