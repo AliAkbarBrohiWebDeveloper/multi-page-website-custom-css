@@ -1,6 +1,5 @@
 import React from 'react'
 import '@/styles/special.css'
-import { spec } from 'node:test/reporters'
 import Image from 'next/image'
 
 
@@ -85,15 +84,11 @@ specialImages.map((images,i)=>(
 
     }
 
-
-
-
 </div>
 
 
 
     </section>
-    
     
     
     </>
