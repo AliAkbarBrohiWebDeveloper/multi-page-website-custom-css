@@ -64,12 +64,12 @@ specialImages.map((images,i)=>(
 <Image src={images.src} alt='special-section-images' height={200} width={200} className='image1'/>
 <div className='short-images'>
 
-<Image src={images.img2} alt='short-images ' height={50} width={50}/>
+<Image src={images.img2} alt='short-images ' height={50} width={50} className='image-2'/>
 <h3>{images.header2}</h3>
 
 </div>
-<h5>{images.header1}</h5>
-<p>{images.paragraph}</p>
+<h5 className='header5'>{images.header1}</h5>
+<p className='paragraph1'>{images.paragraph}</p>
 
 <div className='special-button'>
 

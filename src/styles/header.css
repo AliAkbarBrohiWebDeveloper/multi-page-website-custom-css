@@ -3,8 +3,6 @@
 position: sticky;
 top: 0;
 z-index: 10;
-
-background-color: aqua;
 }
 .main-div{
 
@@ -29,18 +27,20 @@ flex-direction: column;
     display: flex;
 flex-direction: column;
     gap: 4rem;
-    
+    background-color: gray;
     color: white;
     height: 400px;
-    width: 200px;
+    width: 250px;
     text-align: center;
+    margin-top: 2rem;
     
 }
 
 .navbar-menu-icon{
     display: block;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 400px;
+
 
 
 }
@@ -50,6 +50,7 @@ ul li{
     font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
+    
 }
 
 

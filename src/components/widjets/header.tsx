@@ -52,7 +52,7 @@ const toggleMenu=()=>{
 
 </div>
 
-</div>
+
 
 
 {isMenuOpen&&(
@@ -76,7 +76,7 @@ const toggleMenu=()=>{
 
 
 
-
+</div>
     </header>
   )
 }

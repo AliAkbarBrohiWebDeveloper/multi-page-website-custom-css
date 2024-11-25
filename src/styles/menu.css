@@ -1,3 +1,10 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 .main-section{
 
 margin-top: 4rem;
@@ -31,6 +38,8 @@ margin-left: 100px;
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
 }
 .button-dev button:hover{
     background-color: red;
@@ -52,8 +61,15 @@ margin-left: 100px;
     margin-left: 50px;
 
 }
+.image2 h2{
+    text-align: center;
+
+}
 .images-dev h4{
     color: red;
+    text-align: center;
+}
+.header5{
     text-align: center;
 }
 
@@ -72,12 +88,10 @@ gap: 1.25rem;
     margin-top: 1rem;
     justify-content: center;
 }
-
-
-
-
-
-
+.second-image-dev h2{
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
 
 
 

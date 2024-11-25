@@ -65,17 +65,17 @@ menuImages.map((menu,index)=>(
 
 <div key={index}>
 
-<Image src={menu.src} alt='menu-images' height={200} width={200}/>
+<Image src={menu.src} alt='menu-images' height={200} width={200} className='image1'/>
 
 <div className='second-image-dev'>
 
-<Image src={menu.img2} alt='Group1' height={50} width={50}/>
-<h2>{menu.header2}</h2>
+<Image src={menu.img2} alt='Group1' height={50} width={50} className='image2'/>
+<h2 className='header9'>{menu.header2}</h2>
 
 </div>
 
-<h4>{menu.header1} </h4>
-<p>{menu.paragraph}</p>
+<h4 className='header5'>{menu.header1} </h4>
+<p className='paragraph1'>{menu.paragraph}</p>
 <div className='button-dev'>
 <button>order Now</button>
 </div>
