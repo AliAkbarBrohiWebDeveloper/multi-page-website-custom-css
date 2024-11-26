@@ -33,13 +33,15 @@ flex-direction: column;
     width: 250px;
     text-align: center;
     margin-top: 2rem;
+    border-radius: 5px;
+    margin-right: 230px;
     
 }
 
 .navbar-menu-icon{
     display: block;
     cursor: pointer;
-    margin-left: 400px;
+    margin-left: 300px;
 
 
 
@@ -50,6 +52,7 @@ ul li{
     font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
+    
     
 }
 

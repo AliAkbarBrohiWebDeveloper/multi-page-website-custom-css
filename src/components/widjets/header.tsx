@@ -41,6 +41,7 @@ const toggleMenu=()=>{
     
     
     </Link>
+    <Link href={'/contact'}> Contact</Link>
     
   </li>
   </ul>
@@ -67,6 +68,7 @@ const toggleMenu=()=>{
  
  
  <Link href={'Menu'} onClick={toggleMenu}> OUR MENU</Link>
+ <Link href={'contact'} onClick={toggleMenu}> CONTACT</Link>
  
  </li>
  

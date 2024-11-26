@@ -49,8 +49,8 @@ const Special = () => {
 
 <div className='special-section'>
 
-<h3>Today special offers</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<h3>Today Special Offers</h3>
+
 
 </div>
 <div className='special-images'>

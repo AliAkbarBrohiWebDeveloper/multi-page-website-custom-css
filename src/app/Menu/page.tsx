@@ -9,7 +9,7 @@ const menuImages=[{
   src:"/order1.png",
   img2:"/G1.png",
   header1:"Kebab",
-  header2:"⭐ (4.5)",
+  
   paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
 
 },{
@@ -17,7 +17,7 @@ const menuImages=[{
   src:"/order2.png",
   img2:"/G3.png",
   header1:"Kebab",
-  header2:"⭐ (4.8)",
+  
   paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
 
 },{
@@ -25,7 +25,7 @@ const menuImages=[{
   src:"/order3.png",
   img2:"/G2.png",
   header1:"Kebab",
-  header2:"⭐ (4.6)",
+
   paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
 
 
@@ -33,8 +33,9 @@ const menuImages=[{
 
   src:"/order4.png",
   img2:"/G1.png",
+  
   header1:"Kebab",
-  header2:"⭐ (4.2)",
+
   paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
 
 }
@@ -63,14 +64,14 @@ const MenuPage = () => {
 {
 menuImages.map((menu,index)=>(
 
-<div key={index}>
+<div key={index} className='key-dev'>
 
 <Image src={menu.src} alt='menu-images' height={200} width={200} className='image1'/>
 
 <div className='second-image-dev'>
 
 <Image src={menu.img2} alt='Group1' height={50} width={50} className='image2'/>
-<h2 className='header9'>{menu.header2}</h2>
+
 
 </div>
 
