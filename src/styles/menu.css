@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    margin: 20px 30px;
 }
 
 
@@ -29,7 +30,7 @@ margin-top: 4rem;
 }
 .image1{
     
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 .image2{
@@ -83,7 +84,7 @@ margin-left: 100px;
 
 .images-dev h4{
     color: red;
-    margin-left:150px;
+    margin-left:50px;
 }
 
 
@@ -103,7 +104,7 @@ gap: 1.25rem;
     margin-top: 1rem;
     justify-content: center;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .second-image-dev h2{
     margin-left: 4.5rem;
