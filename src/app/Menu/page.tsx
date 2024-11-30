@@ -3,8 +3,6 @@ import "@/styles/menu.css"
 import Image from 'next/image'
 
 
-
-
 const menuImages=[{
   src:"/order1.png",
   img2:"/G1.png",
@@ -82,10 +80,6 @@ menuImages.map((menu,index)=>(
 </div>
 </div>
   
-
-
-
-
 
 ))
 
